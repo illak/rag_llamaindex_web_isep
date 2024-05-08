@@ -1,0 +1,9 @@
+streamlit
+llama-index
+llama-index-readers-web
+html2text
+llama-index-embeddings-gemini
+google-generativeai>=0.3.0
+matplotlib
+python-dotenv
+llama-index-llms-gemini
