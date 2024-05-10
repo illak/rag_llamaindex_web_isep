@@ -111,7 +111,7 @@ def main():
     
     # Ask for user input
     url = st.text_input("Ingrese una URL:", "")
-    api_key = st.text_input("Ingrese la clave API de google Gemini:", "")
+    api_key = st.text_input("Ingrese la clave API de google Gemini:", "",  type="password")
     
     if st.button("Listo"):
         # Perform actions using the URL and API key
