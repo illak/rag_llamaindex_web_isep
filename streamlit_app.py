@@ -99,13 +99,13 @@ def user_input(user_question, retriever, api_key):
 def main():
 
     st.set_page_config(
-        page_title="Gemini PDF Chatbot",
+        page_title="Website chatbot",
         page_icon="🤖"
     )
 
   
 
-    st.title("Google Gemini BOT")
+    st.title("Website chatbot (Gemini 🤖  + LlamaIndex 🦙)")
     st.subheader("Chateando con el contenido de páginas web")
     
     # Ask for user input
@@ -124,7 +124,7 @@ def main():
             st.error("Ocurrió un error al cargar los datos!")
 
 
-    st.write("Welcome to the chat!")
+    st.write("Bienvenido/a al chat!")
     st.sidebar.button('Limpiar historial de chat', on_click=clear_chat_history)
 
     # Chat input
