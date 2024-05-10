@@ -107,7 +107,7 @@ def main():
 
     st.title("Website chatbot")
     st.subheader("Chateando con el contenido de páginas web")
-    st.subheader("Gemini 🤖  + LlamaIndex 🦙")
+    st.subheader("Hecho con: Gemini 🤖  + LlamaIndex 🦙")
     
     # Ask for user input
     url = st.text_input("Ingrese una URL:", "")
